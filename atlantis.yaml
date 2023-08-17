@@ -3,7 +3,7 @@ projects:
 - dir: .
   name: production
   workflow: production
-  apply_requirements: [approved]
+  apply_requirements: [workflow]
 workflows:
   production:
    plan:
