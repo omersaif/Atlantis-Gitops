@@ -6,3 +6,7 @@ variable "instance_name" {
   type = string
   default = "Atlantis-instance"
 }
+variable "region" {
+  type = string
+  default = "us-east-1"
+}
